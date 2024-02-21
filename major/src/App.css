@@ -25,9 +25,13 @@ min-height: 150vh;
 .h1border{
   border: 2px solid white;
   border-radius: 10px;
- 
-  
-}
+ }
+
+ .giftdrone{
+  margin-top: 50px;
+  border: 2px solid whitesmoke;
+  border-radius: 10px;
+ }
 
 .message{
    flex-direction: column;  

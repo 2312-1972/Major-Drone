@@ -1,5 +1,5 @@
-import './App.css';
-import logo from './logo.svg';
+import '../App.css';
+import logo from '../logo.svg';
 function Matos() {
   return (
     <div className="App">

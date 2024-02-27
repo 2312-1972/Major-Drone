@@ -1,12 +1,13 @@
-import './App.css';
+import '../App.css';
 
-function Home() {
+
+function Homes() {
   return (
     <div >
-      <h1>home sweeet home !! </h1>
-    
+     
+  
     </div>
   );
 }
 
-export default Home;
+export default Homes;

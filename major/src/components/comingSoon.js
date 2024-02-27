@@ -1,10 +1,10 @@
+import logo from '../logo.svg';
 import '../App.css';
-// import logo from '../logo.svg';
-// import funLogo from "../Logomd.png"
-function Header() {
+import funLogo from "../Logomd.png"
+function Coming() {
   return (
     <div className="App">
-      {/* <header className="App-header">
+      <header className="App-header">
         <div className="message">
         <img src={logo} className="App-logo" alt="logo" />
         <h1 class="title h1border">MAJOR DRONE</h1>
@@ -19,9 +19,9 @@ function Header() {
        </p>
         </div>
         
-      </header> */}
+      </header>
     </div>
   );
 }
 
-export default Header;
+export default Coming;

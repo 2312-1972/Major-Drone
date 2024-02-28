@@ -4,14 +4,10 @@ import './App.css';
 import './index.css';
 
 import Header from './components/Header';
-
 import Homes from './pages/Home';
-
 import Matos from './pages/Materials';
-
 import Contacts from './pages/Contact';
 import Project from './pages/Projects';
-
 import Footer from './components/Footer';
 import Coming from './components/comingSoon';
 

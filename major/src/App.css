@@ -28,9 +28,10 @@ min-height: 150vh;
  }
 .alignfundrone{
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 30px;
+  
 }
  .giftdrone{
   margin-top: 50px;
@@ -59,7 +60,7 @@ min-height: 150vh;
 
 .title{
   
-    font-family: "Protest Guerrilla", sans-serif;
+   
     font-weight: 400;
     font-style: normal;
    letter-spacing: 4px;

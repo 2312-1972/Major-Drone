@@ -1,7 +1,7 @@
 import logo from '../logo.svg';
 import '../App.css';
 // import funLogo from "../Logomd.png"
-import lol from"../drone3.jpg"
+
 function Coming() {
   return (
     <div className="App">
@@ -13,7 +13,7 @@ function Coming() {
         <h3 style={{fontFamily: 'stick No Bills' }}>(On your screens soon !)</h3>
         <div className="alignfundrone">
             
-        {/* <img className="giftdrone" align="center" width="10%"  alt="logo" src= {lol}/> */}
+        
         </div>
         <section align="center">
        <img className="giftdrone" align="center" width="60%" height="auto" alt="GIF" src="https://media.giphy.com/media/Q94TX0ecoNtTadxhvx/giphy.gif"/>

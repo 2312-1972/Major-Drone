@@ -9,7 +9,9 @@ import Matos from './pages/Materials';
 import Contacts from './pages/Contact';
 import Project from './pages/Projects';
 import Footer from './components/Footer';
-import Coming from './components/comingSoon';
+// import Coming from './components/comingSoon';
+import YouTubeBackground from './components/Youtubeback';
+
 
 function App() {
   
@@ -18,7 +20,8 @@ function App() {
     <Router>
       <div className='body'>
        <Header/>
-       <Coming/>
+       {/* <Coming/> */}
+       <YouTubeBackground />
          <Routes>
             <Route path="/" element={<Homes/>} />
             <Route path="/projects" element={<Project />} />

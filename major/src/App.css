@@ -80,6 +80,14 @@ iframe {
   letter-spacing: 4px;
 }
 
+/* Home */
+.standby{
+  background-image: url('/public/images/drone4.jpg');
+}
+
+
+
+
 /* Footer */
 
 .footer {

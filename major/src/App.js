@@ -10,7 +10,7 @@ import Contacts from './pages/Contact';
 import Project from './pages/Projects';
 import Footer from './components/Footer';
 // import Coming from './components/comingSoon';
-// import YouTubeBackground from './components/Youtubeback';
+ import YouTubeBackground from './components/Youtubeback';
 
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
       <div className='body'>
        <Header/>
        {/* <Coming/> */}
-       {/* <YouTubeBackground /> */}
+       { <YouTubeBackground /> }
          <Routes>
             <Route path="/" element={<Homes/>} />
             <Route path="/projects" element={<Project />} />

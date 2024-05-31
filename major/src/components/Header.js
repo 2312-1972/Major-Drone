@@ -4,9 +4,9 @@ import '../App.css';
 function Header() {
   return (
     <div className="App" >
-     <img src={logo1b} className="logo1b " alt="logo header" style={{alignItem:'flex start'}} />
-     <h2 style={{fontFamily: 'stick No Bills' }}>Bientôt sur vos écrans ! </h2>
-        <h3 style={{fontFamily: 'stick No Bills' }}>(On your screens soon !)</h3>
+     <img src={logo1b} className="logo1b " alt="logo header" style={{display: 'flex', justifyContent: 'flex start', margin:'30px'}} />
+     <h2 style={{fontFamily: 'stick No Bills', display: 'flex', justifyContent: 'start' , color:'white', margin:'30px' }}>Bientôt sur vos écrans ! </h2>
+        <h3 style={{fontFamily: 'stick No Bills', display: 'flex', justifyContent: 'start', color:'white', marginLeft:'50px' }}>(On your screens soon !)</h3>
     </div>
   );
 }

@@ -85,7 +85,20 @@ iframe {
   background-image: url('/public/images/drone4.jpg');
 }
 
-
+.standbytext {
+  font-family: stick No Bills;
+  display: flex;
+ 
+  color: black;
+}
+.standbytextbackground {
+  padding: 10px;
+  display: inline-block;
+  background-color:white;
+  margin: 20px;
+  border-radius: 5px;
+  opacity: 65%;
+}
 
 
 /* Footer */
@@ -95,31 +108,42 @@ iframe {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-top: 1px solid black;
+  border: 1px solid black;
   background-color: rgb(242, 234, 234);
-  padding-top: 20px;
+  opacity: 60%;
+  padding-top: 10px;
+  width: 500px;
  height: auto;
  margin-top: 450px;
+ margin-left: 600px;
+ border-radius: 10px;
+}
+.footerlinks{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15px;
 }
 .linkFooter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-decoration: none;
   color: black;
   font-size: 20px;
   font-family: "stick No Bills";
   margin: 5px;
-  text-align: center;
+  
 }
 .spanFooter {
-  margin: 5px;
-  font-size: 20px;
+ 
+  font-size: 15px;
 }
-.faFooter {
-  font-size: 20px;
-}
+
 .linkCopyright {
   text-decoration: none;
   color: black;
   font-family: "stick No Bills";
-  margin: 5px;
+  
   text-align: center;
 }
